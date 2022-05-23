@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	display: flex;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+h4 {
+	background-color: lightblue;
+	margin: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap-around;
+	font-size: 25px;
+}
+
+div, p {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin: 10px;
+	padding-bottom: 3px;
+}
+
+#send {
+	width: 5%;
+	padding: 5px;
+	margin: 10px;
+	margin-left: 280px;
+	background-color: lightblue;
+}
+
+a {
+	margin: 230px;
+}
