@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+	padding: 30px;
+	margin: 20px;
+	background-color: lightblue;
+}
+
+h1, h2 {
+	display: flex;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	color: #8080ff;
+}
+
+a {
+	margin: 10px;
+}
+
+p {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin: 10px;
+	padding-bottom: 3px;
+}
+
+.error {
+	color: red;
+}
+
+.button, .ebutton {
+	background-color: #8080ff;
+	color: white;
+}
+
+.ebutton {
+	margin: 10px;
+}
+
+.dbutton {
+	background-color: #f53f0a;
+	color: white;
+}
